@@ -29,8 +29,12 @@ $ cargo build
 
 You can use the `cargo`-based execution or you can use your own custom method as well.
 
+For example:
 ```
-$ cargo run
+$ cargo run -- -t
+
+Hello from test1.js!
+Hello from test2.js!
 ```
 
 ## License

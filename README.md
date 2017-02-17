@@ -15,6 +15,13 @@ Required Ubuntu version:
 Required packages:
 * Rust-lang (see: https://www.rust-lang.org/en-US/install.html)
 
+## Cloning the source
+
+The JerryScript is a git submodule in this project. So, you can clone everything with the following command:
+```
+git clone --recursive https://github.com/loki04/rustedjs.git
+```
+
 ## Building
 
 The building of this project is based on `cargo`.

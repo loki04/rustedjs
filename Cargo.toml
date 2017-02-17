@@ -1,0 +1,20 @@
+[package]
+name = "rustedjs"
+version = "0.1.0"
+authors = ["Gabor Loki <loki@inf.u-szeged.hu>"]
+build = "build.rs"
+
+[lib]
+name = "librustedjs"
+path = "src/librustedjs.rs"
+
+[[bin]]
+name = "rustedjscmd"
+path = "src/rustedjscmd.rs"
+
+[dependencies]
+getopts = "0.2"
+
+[build-dependencies]
+gcc = "0.3"
+cmake = "0.1.20"
